@@ -1,5 +1,5 @@
-//Programa: Conectando Sensor Ultrassonico HC-SR04 ao Arduino
-//Autor: FLAVIO.ALL
+/////Programa: Conectando Sensor Ultrassonico HC-SR04 ao Arduino////
+////////////////////////Autor: FLAVIO.ALL///////////////////////////
 
 #include "Ultrasonic.h"
 Ultrasonic ultrasonic (13,12);
