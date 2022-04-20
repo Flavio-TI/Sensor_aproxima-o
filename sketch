@@ -24,7 +24,7 @@ void loop() {
   Serial.print(distancia);
   Serial.println("  cm");
   
-  //*********sinalização dos leds e buzer***********   
+  //*********SINALIZAÇÃO DOS LEDS E BUZZER***********   
 
   if (distancia <= 3) {
     ledDisplay (0, 0, 0, 0, 0, 0, 1); tone(buzzer,1550); delay(100);
